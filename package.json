@@ -1,0 +1,16 @@
+{
+  "name": "render-deploy-action",
+  "version": "1.0.0",
+  "description": "barebones deploy hook call for your Render app",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "node-fetch": "^3.2.9"
+  }
+}

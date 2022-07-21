@@ -1,0 +1,12 @@
+name: "deploy render"
+description: "deploy hook for your render app"
+inputs:
+  render-api-key:
+    description: "render api key"
+    required: true
+  render-service-id:
+    description: "render service id"
+    required: true
+runs:
+  using: "node16"
+  main: "dist/index.js"
